@@ -496,6 +496,9 @@ img {
   .middle__search-form {
     display: none;
   }
+  .search-icon {
+    display: block;
+  }
 }
 
 .search-form__select {
