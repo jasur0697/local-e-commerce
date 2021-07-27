@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAC,MAAM,CACtB,WAAW,CAAE,MAAM,CACnB,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,mBAAmB,CAC/B,AAED,AAAA,oBAAoB,AAAC,CACjB,MAAM,CAAE,IAAI,CACf",
+    "sources": [
+        "../scss/blocks/search-form.scss"
+    ],
+    "names": [],
+    "file": "search-form.min.css"
+}

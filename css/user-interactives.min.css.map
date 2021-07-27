@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/blocks/user-interactives.scss"
+    ],
+    "names": [],
+    "file": "user-interactives.min.css"
+}
