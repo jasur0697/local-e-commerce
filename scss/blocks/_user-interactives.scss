@@ -1,0 +1,47 @@
+.middle__user-interactives {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+
+.interactives__link:not(:last-child) {
+    fill: white;
+    margin-right:40px ;
+}
+
+.interactives__link:last-child {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    color:$color-black-text;
+}
+
+
+
+.svg-icons:hover {
+    fill: $color-green-grass;
+}
+
+.interactives__count-basket {
+    position: absolute;
+    z-index: 12;
+    right: 60%;
+    bottom: -5px;
+    background: #e5704b;
+    width: 18px;
+    height: 18px;
+    padding-left: 5px;
+    padding-right: 6px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.svg-icons {
+    width: 24px;
+    height: 24px;
+}
