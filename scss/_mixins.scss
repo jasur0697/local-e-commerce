@@ -3,3 +3,45 @@
   margin: 0;
   list-style: none;
 }
+
+
+
+@mixin dflex($justify) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+}
+
+@mixin bg-image ($size, $position, $width, $height) {
+  background-repeat: no-repeat;
+  background-size: $size;
+  background-position: $position;
+  width: $width;
+  height: $height;
+}
+
+@mixin flex-direction($align, $justify, $flex-direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $flex-direction;
+}
+
+@mixin primaryBtn {
+  font-family: $main-color;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: $white-cl;
+  background-color: $green-cl;
+  border: 2px solid #46760A;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+@mixin breakpoint-down ($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}

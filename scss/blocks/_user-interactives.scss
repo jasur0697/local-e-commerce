@@ -8,21 +8,27 @@
 
 
 .interactives__link:not(:last-child) {
-    fill: white;
     margin-right:40px ;
 }
+
 
 .interactives__link:last-child {
     position: relative;
     z-index: 1;
     display: inline-block;
-    color:$color-black-text;
+    color:$main-color;
 }
 
+.interactives__link{
+    stroke: #151515;
+    fill: white;
+}
+.interactives__link:hover{
+    stroke: green;
+}
 
-
-.svg-icons:hover {
-    fill: $color-green-grass;
+.svg-icons {
+    fill: white;
 }
 
 .interactives__count-basket {
@@ -38,7 +44,7 @@
     border-radius: 12px;
     font-size: 12px;
     line-height: 18px;
-    color: #fff;
+    color: $white-cl;
 }
 
 .svg-icons {
