@@ -434,8 +434,6 @@ img {
 .container {
   width: 100%;
   max-width: 1260px;
-  padding-left: 45px;
-  padding-right: 45px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -459,8 +457,7 @@ img {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 45px;
+  padding: 40px 45px 45px;
   background-color: white;
 }
 
@@ -634,5 +631,9 @@ img {
 .svg-icons {
   width: 24px;
   height: 24px;
+}
+
+.reviews {
+  padding: 0 45px;
 }
 /*# sourceMappingURL=main.css.map */

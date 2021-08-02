@@ -5,12 +5,9 @@
     margin-left: 20px;
 }
 
-
-
 .interactives__link:not(:last-child) {
     margin-right:40px ;
 }
-
 
 .interactives__link:last-child {
     position: relative;
@@ -23,6 +20,7 @@
     stroke: #151515;
     fill: white;
 }
+
 .interactives__link:hover{
     stroke: green;
 }
