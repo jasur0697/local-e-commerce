@@ -773,6 +773,7 @@ img {
   text-align: center;
   color: #151515;
   margin-bottom: 24px;
+  overflow-y: hidden;
 }
 
 .carousel__names {
@@ -786,7 +787,7 @@ img {
 
 .carousel__imgs {
   position: absolute;
-  z-index: 1;
+  z-index: 122;
   left: calc(50% - 20px);
   bottom: -24px;
 }
