@@ -441,7 +441,7 @@ img {
 
 @media only screen and (max-width: 470px) {
   .container {
-    padding: 0 25px;
+    padding: 0;
   }
 }
 
@@ -461,9 +461,15 @@ img {
   background-color: white;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 450px) {
   .site-header__middle {
     min-width: 100%;
+    padding: 40px 25px 45px;
+  }
+  .middle__logo-link {
+    min-width: 117px;
+    height: 18px;
+    margin-right: 20px;
   }
 }
 
@@ -559,10 +565,10 @@ img {
     display: block;
   }
   .search-form__select {
-    margin-right: 24px;
+    margin-right: 14px;
   }
   .search-form__input {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .search-form__button {
     margin-left: 0px;
@@ -572,6 +578,9 @@ img {
 @media only screen and (max-width: 425px) {
   .search-form__select {
     display: none;
+  }
+  .search-form__input {
+    margin-left: 10px;
   }
 }
 
@@ -678,6 +687,8 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: 70px;
+  overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .carousel__wrapper::before {

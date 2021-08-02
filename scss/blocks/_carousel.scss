@@ -2,8 +2,8 @@
     position: relative;
     z-index: 1;
     margin-bottom: 70px;
-
-
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .carousel__wrapper::before{

@@ -71,16 +71,17 @@
         justify-content: space-around;
     }
 
+   
     .search-icon{
         display: block;
     }
 
     .search-form__select {
-        margin-right: 24px;
+        margin-right: 14px;
     }
 
     .search-form__input {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .search-form__button {
@@ -93,5 +94,9 @@
     .search-form__select {
         display: none
     }
+
+    .search-form__input {
+        margin-left: 10px;
+    } 
 
 }
