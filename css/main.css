@@ -635,5 +635,73 @@ img {
 
 .reviews {
   padding: 0 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+.reviews-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: bold;
+  padding: 0;
+  width: 98px;
+  height: 35px;
+}
+
+.reviews__btn::after {
+  display: inline-block;
+  content: "";
+  background-image: url(/img/Vector-right.svg);
+  background-position: calc(50% + 2px) -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel__wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel__btn {
+  position: absolute;
+  z-index: 1;
+  top: calc(50%);
+  background-color: black;
+  width: 32px;
+  height: 48px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.left-btn {
+  left: 0;
+  background-image: url(/img/w-left-arrow.svg);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.right-btn {
+  right: 0;
+  background-image: url(/img/w-right-arrow.svg);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 /*# sourceMappingURL=main.css.map */

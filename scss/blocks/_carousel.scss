@@ -1,0 +1,47 @@
+.carousel__wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel__btn {
+    position: absolute;
+    z-index: 1;
+    top: calc(50%);
+    background-color: black;
+    width: 32px;
+    height: 48px;
+    border:none;
+    background-repeat: no-repeat;
+    background-position:center;
+    cursor: pointer;
+}
+
+.left-btn {
+    left: 0;
+    background-image: url(/img/w-left-arrow.svg);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.right-btn {
+    right: 0;
+    background-image: url(/img/w-right-arrow.svg);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.carousel__list {
+
+}
+
+.carousel__item {
+
+}
+
+.carousel__quote {
+
+}
+
+.carousel__names {
+
+}

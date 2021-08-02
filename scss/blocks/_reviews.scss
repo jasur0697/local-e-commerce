@@ -1,4 +1,33 @@
 .reviews {
     padding: 0 45px;
+    font-family: $main-font;
+}
+.reviews-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.reviews__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: bold;
+    padding: 0;
+    width: 98px;
+    height: 35px;
+   
+}
+
+.reviews__btn::after {
+    display: inline-block;
+    content: "";
+    background-image: url(/img/Vector-right.svg);
+    background-position:calc(50% + 2px) -1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
